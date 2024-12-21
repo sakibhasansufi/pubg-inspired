@@ -23,8 +23,8 @@ const Contact = () => {
           />
         </div>
 
-        <div className="absolute -top-40 sm:hidden md:block left-20 w-60 sm:top-10 md:left-auto md:right-10 lg:top-40 lg:w-[300px]">
-          
+        <div className="absolute -top-20 sm:hidden md:block left-20 w-60 sm:top-10 md:left-auto md:right-10 lg:top-40 lg:w-[300px]">
+
           <ImageClipBox
             src="/image/helmet.jpg"
             clipClass="sword-man-clip-path md:scale-125"
@@ -49,14 +49,14 @@ const Contact = () => {
 };
 
 ImageClipBox.propTypes = {
-    src: PropTypes.string.isRequired,
-    clipClass: PropTypes.string.isRequired
+  src: PropTypes.string.isRequired,
+  clipClass: PropTypes.string.isRequired
 
 };
 
 ImageClipBox.defaultProps = {
-    src: '',
-    clipClass: ''
+  src: '',
+  clipClass: ''
 
 }
 
