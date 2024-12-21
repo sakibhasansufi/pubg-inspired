@@ -31,6 +31,8 @@ const Contact = () => {
           />
         </div>
 
+
+
         <div className="flex flex-col items-center text-center">
           <p className="mb-10 font-general text-[10px] uppercase">
             Join PUBG Now
